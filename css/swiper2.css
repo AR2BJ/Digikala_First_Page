@@ -1,0 +1,87 @@
+div.wrapper > div.content > div.swiper2 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin-top: 16px;
+}
+
+div.wrapper > div.content > div.swiper2 > div.swiper-wrapper {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+}
+
+div.wrapper > div.content > div.swiper2 > div.swiper-button-prev {
+	right: 40px;
+	top: 360px !important;
+	visibility: hidden;
+	opacity: 0;
+    transition: all 0.2s ease;
+}
+
+div.wrapper > div.content > div.swiper2 > div.swiper-button-next {
+	right: 88px;
+	top: 360px !important;
+	visibility: hidden;
+	opacity: 0;
+    transition: all 0.2s ease;
+}
+
+div.wrapper > div.content > div.swiper2:hover > div.swiper-button-next,
+div.wrapper > div.content > div.swiper2:hover > div.swiper-button-prev {
+	visibility: visible;
+	opacity: 1;
+}
+
+div.wrapper
+	> div.content
+	> div.swiper2
+	> div.swiper-pagination
+	> span.swiper-pagination-bullet {
+	width: 4px;
+	height: 4px;
+	transition: width 0.2s ease-in-out;
+	cursor: default;
+}
+
+div.wrapper
+	> div.content
+	> div.swiper2
+	> div.swiper-pagination
+	> span.swiper-pagination-bullet-active {
+	background-color: #fff;
+	width: 16px;
+	height: 6px;
+	border-radius: 25px;
+	transform: translateY(1px);
+}
+
+div.wrapper
+	> div.content
+	> div.swiper2
+	> div.swiper-wrapper
+	> div.swiper-slide {
+	text-align: center;
+	height: 400px;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+div.wrapper
+	> div.content
+	> div.swiper2
+	> div.swiper-wrapper
+	> div.swiper-slide
+	> img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

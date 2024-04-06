@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "IranYekanBold";
+	src: url("../font/eot/IRANYekanFN-Bold.eot");
+	src: local("IRANYekanFN-Bold"),
+		url("../font/eot/IRANYekanFN-Bold.eot?#iefix") format("embedded-opentype"),
+		url("../font/woff2/IRANYekanFN-Bold.woff2") format("woff2"),
+		url("../font/woff/IRANYekanFN-Bold.woff") format("woff"),
+		url("../font/ttf/IRANYekanFN-Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "IranYekanRegular";
+	src: url("../font/eot/IRANYekanFN-Regular.eot");
+	src: local("IRANYekanFN-Regular"),
+		url("../font/eot/IRANYekanFN-Regular.eot?#iefix")
+			format("embedded-opentype"),
+		url("../font/woff2/IRANYekanFN-Regular.woff2") format("woff2"),
+		url("../font/woff/IRANYekanFN-Regular.woff") format("woff"),
+		url("../font/ttf/IRANYekanFN-Regular.ttf") format("truetype");
+}

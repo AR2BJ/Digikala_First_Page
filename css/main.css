@@ -1,0 +1,146 @@
+/* 
+
+	[class*=""] -> All classes that contain letters inside double quotes 
+
+*/
+
+@import "./font.css";
+@import "./header.css";
+@import "./menu.css";
+@import "./swiper1.css";
+@import "./swiper2.css";
+@import "./content.css";
+@import "./swiper3.css";
+@import "./swiper4.css";
+@import "./swiper5.css";
+@import "./swiper6.css";
+@import "./swiper7.css";
+@import "./footer.css";
+
+:root {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	direction: rtl;
+	font-family: IranYekanRegular;
+}
+
+body::-webkit-scrollbar {
+	width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+	background-color: #f0f0f1;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #c0c2c5;
+}
+
+/* 
+	^
+	 ^
+	  ^
+‌		‌Body scrollbar appearance 
+
+*/
+
+.showing::before {
+	display: none;
+}
+
+.stop-scrolling {
+	height: 100%;
+	overflow: hidden;
+}
+
+.scroll::-webkit-scrollbar-track {
+	display: block;
+}
+
+div.swiper-button-next,
+div.swiper-button-prev {
+	background-color: #fff;
+	border: 1px solid #e0e0e2;
+	height: 40px;
+	position: absolute;
+	top: 85%;
+	color: #424750;
+	border-radius: 50%;
+	transform: translateY(-50%);
+	width: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+div.swiper-button-next::after,
+div.swiper-button-prev::after {
+	font-size: 10px;
+	font-weight: 900;
+}
+
+div.backdrop {
+	width: 100%;
+	height: 98%;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 153px;
+	z-index: 2;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.2s ease;
+}
+
+span.discount {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	right: 0;
+	background-color: #d32f2f;
+	border-radius: 25px;
+	margin: 15px 0 11px;
+	padding: 0 4px;
+	color: #fff;
+	height: 20px;
+	width: 34px;
+	font-family: IranYekanBold;
+	font-size: 12px;
+}
+
+div.show {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 4px 0 12px;
+}
+
+div.show > a {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 2.17;
+	width: inherit;
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+div.show > a > svg {
+	padding: 5px 6.89px;
+	font-size: 10px;
+	font-weight: 900;
+}

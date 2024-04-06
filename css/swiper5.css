@@ -1,0 +1,128 @@
+div.wrapper > div.content > div.popular {
+	width: 100%;
+	max-width: 1336px;
+	border: 1px solid #e0e0e2;
+	border-radius: 16px;
+	margin: 16px auto;
+	padding: 24px 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+}
+
+div.wrapper > div.content > div.popular > div.head {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+div.wrapper > div.content > div.popular > div.head > h3 {
+	font-weight: 500;
+	font-family: IranYekanBold;
+	font-size: 22px;
+}
+
+div.wrapper > div.content > div.popular > div.head > svg {
+	margin-left: 8px;
+	color: #f9bc00;
+	font-size: 18px;
+}
+
+div.wrapper > div.content > div.popular > div.content > div.swiper5 {
+	width: inherit;
+	height: 100%;
+	max-width: 1336px;
+	padding: 0 3px;
+	position: relative;
+	margin-top: 12px;
+}
+
+div.wrapper
+	> div.content
+	> div.popular
+	> div.content
+	> div.swiper5
+	> div.swiper-button-disabled {
+	visibility: hidden;
+	opacity: 0;
+}
+
+div.wrapper
+	> div.content
+	> div.popular
+	> div.content
+	> div.swiper5
+	> div.swiper-button-next,
+div.wrapper
+	> div.content
+	> div.popular
+	> div.content
+	> div.swiper5
+	> div.swiper-button-prev {
+	top: 70%;
+}
+
+div.wrapper
+	> div.content
+	> div.popular
+	> div.content
+	> div.swiper5
+	> div.swiper-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+}
+
+div.wrapper
+	> div.content
+	> div.popular
+	> div.content
+	> div.swiper5
+	> div.swiper-wrapper
+	> div.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+div.wrapper
+	> div.content
+	> div.popular
+	> div.content
+	> div.swiper5
+	> div.swiper-wrapper
+	> div.swiper-slide
+	> div.img
+	> a {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-left: 1px solid #f0f0f1;
+	padding: 4px 16px;
+}
+
+div.wrapper
+	> div.content
+	> div.popular
+	> div.content
+	> div.swiper5
+	> div.swiper-wrapper
+	> div.swiper-slide
+	> div.img
+	> a
+	> img {
+	width: 110px;
+	height: 110px;
+	object-fit: contain;
+}

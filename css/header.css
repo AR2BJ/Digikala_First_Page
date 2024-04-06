@@ -1,0 +1,423 @@
+div.wrapper {
+	position: relative;
+	width: 100%;
+}
+
+div.wrapper > div.header {
+	width: inherit;
+	height: 168px;
+	background-color: #fff;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.14), 0 2px 0 rgba(0, 0, 0, 0.05);
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 4;
+}
+
+div.wrapper > div.header > div.top {
+	width: inherit;
+	height: 60px;
+}
+
+div.wrapper > div.header > div.top > img {
+	width: 100%;
+	height: inherit;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+div.wrapper > div.header > div.content_1,
+div.wrapper > div.header > div.content_2 {
+	width: inherit;
+	max-width: 1676px;
+	background-color: #fff;
+	padding: 0 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div.wrapper > div.header > div.content_1 > div.contents {
+	width: inherit;
+	padding: 12px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+div.wrapper > div.header > div.content_1 > div.contents > div.content_1 {
+	flex-grow: 1;
+	width: fit-content;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_1
+	> div.container
+	> div.searchbar,
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_1
+	> div.container,
+div.wrapper > div.header > div.content_1 > div.contents > div.content_1 > a,
+div.wrapper > div.header > div.content_1 > div.contents > div.content_1,
+div.wrapper > div.header > div.content_1 > div.contents > div.content_2 {
+	width: fit-content;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+}
+
+div.wrapper > div.header > div.content_1 > div.contents > div.content_1 > a {
+	justify-content: center;
+	margin-left: 20px;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_1
+	> a
+	> img {
+	width: 100%;
+	object-fit: contain;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_1
+	> div.container {
+	height: inherit;
+	flex-grow: 1;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_1
+	> div.container
+	> div.searchbar {
+	position: relative;
+	width: 600px;
+	height: 44px;
+	background-color: #f0f0f1;
+	padding: 0 16px;
+	border-radius: 8px;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_1
+	> div.container
+	> div.searchbar
+	* {
+	color: #a1a3a8;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_1
+	> div.container
+	> div.searchbar
+	> svg {
+	font-size: 18px;
+	padding: 3px;
+	cursor: pointer;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_1
+	> div.container
+	> div.searchbar
+	> input {
+	width: 70px;
+	caret-color: #008eb2;
+	background-color: transparent;
+	padding: 0 16px;
+	border: none;
+	font-size: 12px;
+	line-height: 2;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_1
+	> div.container
+	> div.searchbar
+	> input::placeholder {
+	color: #81858b;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_1
+	> div.container
+	> div.searchbar
+	> input:focus {
+	outline: none;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_1
+	> div.container
+	> div.searchbar
+	> div.line {
+	width: 88%;
+	height: 1px;
+	background-color: transparent;
+	position: absolute;
+	left: 16px;
+	bottom: 7px;
+	transition: all 0.3s ease;
+}
+
+div.wrapper > div.header > div.content_1 > div.contents > div.content_2 {
+	width: fit-content;
+}
+
+div.wrapper > div.header > div.content_1 > div.contents > div.content_2 > a {
+	max-height: 40px;
+	background-color: transparent;
+	color: #0c0c0c;
+	padding: 8px 14px;
+	border: 1px solid #e0e0e2;
+	border-radius: 8px;
+	font-family: IranYekanBold;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_2
+	> a
+	> div {
+	width: 24px;
+	height: 24px;
+	transform: rotate(180deg);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-left: 8px;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_2
+	> a
+	> div
+	> svg {
+	width: 20px;
+	height: 18px;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_2
+	> div.hor_line {
+	width: 1px;
+	height: 24px;
+	margin: 0 12px;
+	background-color: #e0e0e2;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_2
+	> div.buybasket {
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+div.wrapper
+	> div.header
+	> div.content_1
+	> div.contents
+	> div.content_2
+	> div.buybasket
+	> svg {
+	transform: rotateY(180deg);
+	font-size: 20px;
+	cursor: pointer;
+}
+
+div.wrapper > div.header > div.content_2 {
+	height: 100%;
+	transition: all 0.3s ease-out;
+	z-index: -1;
+}
+
+div.wrapper > div.header > div.content_2 > ul {
+	height: inherit;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+div.wrapper > div.header > div.content_2 > ul > li {
+	height: inherit;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+}
+
+div.wrapper > div.header > div.content_2 > ul > li:nth-of-type(1) {
+	position: relative;
+	margin-left: 20px;
+	padding: 0;
+}
+
+div.wrapper > div.header > div.content_2 > ul > li:nth-of-type(2)::before {
+	content: "";
+	width: 1px;
+	height: 16px;
+	background-color: #e0e0e2;
+}
+
+div.wrapper > div.header > div.content_2 > ul > li:nth-of-type(6)::after {
+	content: "";
+	width: 1px;
+	height: 16px;
+	background-color: #e0e0e2;
+}
+
+div.wrapper > div.header > div.content_2 > ul > li > a {
+	height: inherit;
+	color: #62666d;
+	position: relative;
+	padding: 0 12px;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div.wrapper > div.header > div.content_2 > ul > li:nth-of-type(1) > a {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: #3f4064;
+	font-size: 14px;
+	padding: 0;
+	font-family: IranYekanBold;
+}
+
+div.wrapper > div.header > div.content_2 > ul > li > a > svg {
+	color: #a1a3a8;
+	font-size: 15px;
+	padding: 1.5px;
+	margin-left: 4px;
+}
+
+div.wrapper > div.header > div.content_2 > ul > li:nth-of-type(1) > a > svg {
+	color: #424750;
+	width: 20px;
+	font-size: 14px;
+	padding: 3px 0;
+	margin-top: 2px;
+}
+
+div.wrapper > div.header > div.content_2 > ul > li:nth-of-type(6) > svg {
+	padding-top: 2.5px;
+}
+
+div.wrapper > div.header > div.content_2 > ul > div.underline {
+	background-color: #ef394e;
+	height: 2px;
+	transition: all 0.2s ease;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 0;
+	transform: translate3d(-0.078125px, 0px, 0px);
+}
+
+div.wrapper > div.header > div.content_2 > div.location {
+	height: inherit;
+	padding-bottom: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+div.wrapper > div.header > div.content_2 > div.location > svg {
+	margin-left: 10px;
+}
+
+div.wrapper > div.header > div.content_2 > div.location > a {
+	font-size: 12px;
+	color: #3f4064;
+}
+
+div.wrapper > div.header > div.content_2 > div.location > div.tooltip {
+	display: none;
+	position: absolute;
+	inset: 0px -3px auto 0px;
+	transform: translate(3px, 31px);
+	z-index: 4;
+}
+
+div.wrapper > div.header > div.content_2 > div.location > div.tooltip > p {
+	max-width: 320px;
+	width: max-content;
+	border: 1px solid #23254e;
+	background: #3f4064;
+	color: #fff;
+	border-radius: 4px;
+	padding: 8px 12px;
+	margin: 8px;
+	font-size: 12px;
+}
